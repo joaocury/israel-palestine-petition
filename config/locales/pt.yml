@@ -1,0 +1,96 @@
+en:
+  heading_html: "100MillionVoices asks for your support in protesting at the lack of progress in resolving the Israeli-Palestinian conflict"
+  about_us:
+    para_1: We are an independent, non-partisan group of translators and software developers.
+    para_2: We share a belief that by harnessing the voices of moderation from citizens around the world frustrated by the lack of progress in resolving the conflict, we can both inspire and pressure governments to do the right thing.
+    para_3_html: We hope that having read the %{petition_link} and the %{faq_link}, you will want to %{sign_petition_link} and make your voice heard. Thank you.
+    petition: petition
+    sign_the_petition: sign it
+  faq:
+    number_01:
+      question_html: The Israeli-Palestinian conflict has existed for generations. Why launch a petition now?
+      answer_html: Moderate voices in the conflict are increasingly drowned out by extremist views and actions, and both sides seem far from making compromises. We want this non-partisan petition to counter this. The number of <a href="http://www.internetlivestats.com/internet-users/" target="_blank">internet users world wide</a> is rapidly increasing, and this provides us with the opportunity for an online petition to build momentum for change.
+    number_02:
+      question_html: Can I sign the petition more than once?
+      answer_html: We ask that you sign the petition only once so the signature count represents unique individuals. We would love for you to share the petition with your friends and family though.
+    number_03:
+      question_html: Will you publish any signature data?
+      answer_html: We will only publish country and place/city data. We will never share email addresses or names.
+    number_04:
+      question_html: Will you send me unwanted emails?
+      answer_html: No, absolutely not. Once we have sent you an email to confirm your signature, no further emails will be sent.
+    number_05:
+      question_html: How do I know the signature counts are accurate?
+      answer_html: The code for this website is open source and available on <a href="https://github.com/100millionvoices/israel-palestine-petition" target="_blank">GitHub</a>. It can be reviewed by anybody and we welcome any <a href="mailto:feedback@100millionvoices.org" rel="external">suggestions or feedback</a>.
+    number_06:
+      question_html: Why does a popup appear on the signing page asking me to select particular photos?
+      answer_html: This is a security feature called reCAPTCHA from Google. It is designed to keep the site safe from bots.
+  home:
+    petition:
+      para_1_html: "&ldquo; The Israeli-Palestinian conflict is responsible for horrendous misery and suffering on both sides."
+      para_2_html: We call on our governments to renew efforts to foster the conditions necessary for a resolution to the conflict.
+      para_3_html: We call on the Palestinian leadership to recognise Israel's right to a peaceful existence and to commit to non-violence.
+      para_4_html: "And we call on the Israeli government to commit to the creation of a Palestinian state and to end settlement building in the occupied territories.&nbsp;&rdquo;"
+    sign_petition: Sign petition
+    signatures_from: signatures from %{country}
+    total_signatures: signatures in total
+  links:
+    about_us: About us
+    contact: Contact
+    faq: FAQ
+    home: Home
+    sign_petition: Sign petition
+    signatures: Signatures
+  maintenance:
+    message: The site is currently down for maintenance but we should be back soon. Sorry.
+  signature:
+    attributes:
+      country: Country
+      email: Email
+      name: Name
+      place: Place or city
+    form:
+      email_hint: We will never share your email
+      sign_the_petition: Sign it
+      submit_hint: To confirm your signature we will send an email and ask you to click the link in it
+  signatures:
+    almost_there: Almost there...
+    confirmation_error: Your signture has already been confirmed, thank you
+    confirmation_html: Thank you for confirming your signature and signing the petition. Your signature is now being added to the signatures count on the %{home_link}.
+    confirmation_success: Your voice has been heard!
+    home_page: home page
+    make_your_voice_heard: Make your voice heard
+    signature_count_html: The current signature count is <strong>%{count}</strong>
+    signatures_by_country: Signatures by country
+    signatures_by_place_limit: "The top 25 places where signatures originated are :"
+    signatures_from: Signatures from %{country}
+    target_signature_count_html: The target is <strong>%{target}</strong> which is 1% of the <a href="https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)" target="_blank">population</a>
+    thank_you: We have sent you an email. Please read it and click the link to confirm your signature. Thank you.
+    what_happens_if_target_is_met: If this ambitious target is reached then 100MillionVoices will present the petition total to the country's Ministry of Foreign Affairs on your behalf.
+  sharing:
+    email_subject: 100MillionVoices campaign
+    share_petition_on: "Share petition on:"
+    share_text: 100MillionVoices asks for your support in protesting at the lack of progress in resolving the Israeli-Palestinian conflict
+    # twitter text must be less than 110 characters
+    twitter_share: "Support #100MillionVoices in protest at the lack of progress in resolving the Israeli-Palestinian conflict"
+  user_mailer:
+    confirm_signature:
+      confrim_signature: To confirm your signature, please click %{link}.
+      greeting: Hello %{name}
+      subject: Confirm petition signature
+      thank_you: Thank you for supporting the campaign. With so many voices supporting renewed effort to resolve the Israeli-Palestine conflict, we will make a difference.
+
+  errors:
+    attributes:
+      captcha:
+        invalid: The captcha has failed. Please contact us if the error persists.
+      country_code:
+        blank: A country must be selected
+      email:
+        blank: An email must be given
+        invalid: This email is invalid
+        taken: This email has already been taken
+      name:
+        blank: A name must be given
+      place:
+        blank: A place or city must be given
